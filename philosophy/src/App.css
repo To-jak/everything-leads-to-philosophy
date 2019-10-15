@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+html {
+  margin: 0;
+  padding: 0;
+  overflow-y:scroll;
+}
+
+body {
+  background: url(philosophy_background.jpg) no-repeat;
+  background-size: 100% auto;
+  background-attachment: scroll;
+  margin: 0;
+  padding-top: 80px;
+}
+
+h1, h2, h3 {
+  color:white;
+  padding-bottom:20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding-inline-start: 0;
+}
+
+li {
+  color: white;
+  list-style-type: none;
+  font-family: 'Raleway', sans-serif;
+  padding-bottom: 5px;
+}
+
+.philosophy {
+  color: rgb(255, 53, 63);
+  font-size: xx-large;
+}
+
+.App {
+  text-align: center;
+}
+
+.path-selection {
+  margin: auto;
+  width: 30%;
+  height: auto;
+}
+
+.path-list {
+  padding-bottom: 300px;
+}
+
+.move-enter {
+  opacity: 0.01;
+  transform: translate(-40px, 0)
+}
+
+.move-enter-active {
+  opacity: 1;
+  transform: translate(0, 0);
+  transition: all 500ms ease-in;
+}
+
+.move-exit {
+  opacity: 1;
+  transform: translate(0, 0)
+}
+
+.move-exit-active {
+  opacity: 0.01;
+  transform: translate(40px, 0);
+  transition: all 500ms ease-in;
+}
+
+@media (max-width: 1000px) {
+  .path-selection {
+    width: 40%;
+  }
+}
+
+@media (max-width: 700px) {
+  .path-selection {
+    width: 60%;
+  }
+}
+
+@media (max-width: 500px) {
+  .path-selection {
+    width: 80%;
+  }
+}
