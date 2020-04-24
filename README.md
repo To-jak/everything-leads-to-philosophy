@@ -10,7 +10,7 @@ https://en.wikipedia.org/wiki/Wikipedia:Getting_to_Philosophy
 
 ### React app
 You’ll need to have Node >= 8.10 on your machine.
-On the root directory of philosophy, execute either the below commands to install all the project dependencies.
+On the root directory of philosophy, execute the commands below to install all the project dependencies.
 
 `npm install`
 
